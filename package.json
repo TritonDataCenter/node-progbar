@@ -1,0 +1,17 @@
+{
+	"name": "progbar",
+        "author": "Joshua M. Clulow <jmc@joyent.com>",
+	"version": "0.0.1",
+	"description": "terminal progress bar",
+	"main": "./lib/progbar.js",
+	
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/jclulow/node-progbar.git"
+	},
+
+	"dependencies": {
+		"assert-plus": "0.1.2",
+		"sprintf": "0.1.1"
+	}
+}
