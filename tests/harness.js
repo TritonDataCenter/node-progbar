@@ -36,3 +36,8 @@ new_bar()
 }
 
 new_bar();
+
+setInterval(function () {
+  if (bar)
+    bar.log('now @ ' + (new Date()).toISOString());
+}, 750);
