@@ -1,7 +1,7 @@
 {
 	"name": "progbar",
-        "author": "Joshua M. Clulow <jmc@joyent.com>",
-	"version": "0.0.2",
+	"author": "Joshua M. Clulow <jmc@joyent.com>",
+	"version": "0.0.3",
 	"description": "terminal progress bar",
 	"main": "./lib/progbar.js",
 	
@@ -13,5 +13,13 @@
 	"dependencies": {
 		"assert-plus": "0.1.2",
 		"sprintf": "0.1.1"
-	}
+	},
+
+	"keywords": [
+		"progress",
+		"bar",
+		"terminal",
+		"console",
+		"cli"
+	]
 }
