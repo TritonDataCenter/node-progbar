@@ -32,4 +32,12 @@ stream.on('data', function (data) {
 stream.on('end', function (data) {
 	bar.end();
 });
+
+/*
+ * You may also use the stream() method to get a passthrough stream
+ * that you may pipe your data through.  The bar will advance with
+ * the passage of bytes through the stream, and end() will be called
+ * at the end of the stream.
+ */
+input_stream.pipe(bar.stream()).pipe(output_stream);
 ```
