@@ -1,7 +1,7 @@
 {
 	"name": "progbar",
 	"author": "Joshua M. Clulow <jmc@joyent.com>",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "terminal progress bar",
 	"main": "./lib/progbar.js",
 	"contributors": [
