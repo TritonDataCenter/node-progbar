@@ -1,0 +1,5 @@
+*.*.swp
+*-?-stamp
+Makefile
+tests/
+.jshintrc
